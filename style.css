@@ -289,6 +289,43 @@ nav.sticky{
     margin-right: 15px;
     transition: all .45 ease;
 }
+.contact-icons i:hover{
+    background-color: #fefefe;
+    color: red;
+}
+
+.contact-form{
+    position: relative;
+}
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 14px;
+    background: ;
+    color: #444343;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height: 240px;
+}
+.contact-form .submit{
+    display: inline-block;
+    font-size: 16px;
+    background: red;
+    color: #fefefe;
+    width: 160px;
+    transition: all .45s ease;
+    cursor: pointer;
+}
+.contact-form .submit:hover{
+    transform: scale(1.1);
+    background: #fefefe;
+    color: red;
+}
 
 @media only screen and (max-width: 1320px) {
     nav{
