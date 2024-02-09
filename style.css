@@ -300,7 +300,7 @@ nav.sticky{
 .contact-form form input, form textarea{
     width: 100%;
     padding: 14px;
-    background: ;
+    /* background: ; */
     color: #444343;
     border: none;
     border-radius: 8px;
